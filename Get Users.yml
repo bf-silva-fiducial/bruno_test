@@ -6,6 +6,9 @@ info:
 http:
   method: GET
   url: https://jsonplaceholder.typicode.com/users
+  body:
+    type: json
+    data: '{"id": "test"}'
 
 settings:
   encodeUrl: true
